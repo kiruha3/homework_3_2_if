@@ -2,16 +2,31 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+    }
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+    private static void task1() {
+        int clientOS = 0;
+        if (clientOS == 0) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        }else if (clientOS == 1){
+            System.out.println("Установите версию приложения для Android по ссылке");
         }
+    }
+    private static void task2() {
+    }
+
+    private static void task3() {
+    }
+
+    private static void task4() {
+    }
+
+    private static void task5() {
     }
 }
