@@ -49,6 +49,21 @@ public class Main {
     }
 
     private static void task4() {
+        int deliveryDistance = 99;
+        int deliveryDay ;
+        if (deliveryDistance < 100 && deliveryDistance >= 60){
+            deliveryDay = 3;
+            System.out.println("Потребуется дней: " + deliveryDay);
+        }else if (deliveryDistance < 60 && deliveryDistance >= 20) {
+            deliveryDay = 2;
+            System.out.println("Потребуется дней: " + deliveryDay);
+        } else if (deliveryDistance < 20) {
+            deliveryDay = 1;
+            System.out.println("Потребуется дней: " + deliveryDay);
+        } else {
+            System.out.println("Доставка не осуществляется");
+        }
+
     }
 
     private static void task5() {
