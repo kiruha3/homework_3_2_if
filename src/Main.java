@@ -40,8 +40,12 @@ public class Main {
             }
         }
     }
-
     private static void task3() {
+        int year = 1764;
+
+        if ((year % 4 == 0) && (year % 100 !=0)||(year % 400 == 0)) {
+            System.out.println("Год "+year+" является високосным");
+        }
     }
 
     private static void task4() {
